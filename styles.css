@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+header{
+    padding: 0 50px;
+    color: white;
+    background-image: url('img/background.png');
+    overflow: auto;
+    border-top: 8px solid #2ecc71
+}
+header>div{
+    margin: 50px 0;
+    display:row;   
+} 
+h1{
+    font-weight: bold;
+    font-size: 2.625rem;
+    font-family: 'Pacifico', cursive;
+    margin: 0%;
+    
+}
+
+span{
+    color: #2ecc71;
+}
+
+p{
+    display: flex;
+    margin: 1rem;
+    padding-right: 3px;
+    line-height: 21px;
+}
+
+img{
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 3px; 
+    
+    
+}
+header>div>div>img:hover{
+    background-color: #2ecc71;
+
+}
+
+
+img:nth-child(1){
+     
+    padding: 8px;
+    justify-content: space-between;
+    background-color: rgba(5, 12, 14, 0.493);
+}
+
+img:nth-child(2){
+    
+    padding: 8px;
+    background-color: transparent;
+    justify-content: space-between;
+    background-color: rgba(5, 12, 14, 0.493);
+}
+
+img:nth-child(3){
+    padding: 8px;
+    background-color: transparent;
+    justify-content: space-between;
+    background-color: rgba(5, 12, 14, 0.493);
+}
+
+
+section > div {
+    margin: 0;
+    display: flex;
+   
+
+}
+
+section div{
+   
+    flex-direction: column; 
+}
+
+
+h2{
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+#a{
+    margin-left: 42%;
+    padding: 20px;
+    justify-content: center;
+    background-color: #2ecc71;
+    display: flex;
+}
+
+#b{
+    margin-left: 42%;
+    padding: 20px;
+    justify-content: center;
+    background-color: #2ecc71;
+    display: flex;
+}
+
+#c{
+    margin-left: 42%;
+    padding: 20px;
+    justify-content: center;
+    background-color: #2ecc71;
+    display: flex;
+}
+
+
+section p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+
+/* //PARTE DESKTOP */
+@media(min-width: 992px){
+    header{
+        padding: 0 100px;
+        
+    }
+    header>div{
+        margin:100px 0;
+    }
+
+    header>div>div>img:hover{
+        background-color: #2ecc71;
+    
+    }
+
+    img{
+        border-radius: 50%;
+        display: inline-block;
+        justify-content: space-around;
+        padding: 0.007rem;
+       
+    }
+
+    p{
+    margin:3 0 3 7px;
+    /* padding-right: 3px; */
+    line-height: 21px;
+    }
+
+    section  div {
+        margin: 0;
+        flex-direction: row;
+        display: inline-block; 
+        justify-content: space-between;
+    
+    }
+
+    section div {
+        display: flex;
+        justify-content: space-between; /*tem o row em algum lugar*/
+    }
+
+    #a{
+        margin-left: 50%;
+        padding: 20px;
+        justify-content: center;
+        background-color: #2ecc71;
+        display: flex;
+    }
+   
+    #c{
+        margin-left: 50%;
+        padding: 20px;
+        justify-content: center;
+        background-color: #2ecc71;
+        display: flex;
+    }
+
+    #b{
+        margin-left: 50%;
+        padding: 20px;
+        justify-content: center;
+        background-color: #2ecc71;
+        display: flex;
+    }
+}
